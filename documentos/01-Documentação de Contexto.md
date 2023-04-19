@@ -1,7 +1,9 @@
 # Introdução
 
 Inicialmente, a trajetória do universo dos sneakers (tênis ou sapatos esportivos) começou a trilhar seu caminho por volta dos anos de 1980. Nesse período, seu objetivo era se destacar de modo que virasse sucesso entre as pessoas da época, e de fato aconteceu, a ideia dos sneakers alcançou seu êxito, e com o passar do tempo acumulou mil hares de fãs, colecionadores e apaixonados por tênis e pela cultura de seu surgimento.
-Sendo assim, atualmente muitas pessoas dedicam grande parte de seu tempo e dinheiro em coleções especiais e modelos limitados. As peças destes calçados são colocadas no mercado como peças raras e de custo alto, justamente pelo fato de lançarem coleções temporárias e limitadas, em concomitância com o fato de ter se tornado popular, luxuoso e descolado.
+Sendo assim, atualmente muitas pessoas dedicam grande parte de seu tempo e dinheiro em coleções especiais e modelos limitados. As peças destes calçados são colocadas no mercado como peças raras e de custo alto, justamente pelo fato de lançarem coleções temporárias e limitadas, em concomitância com o fato de ter se tornado popular, luxuoso e descolado .Diante do alto padrão em modelos exclusivos e limitados, e da alta procura, o acesso à compra se tornou mais difícil e restrito, em parte porque grande parte das pessoas preferem comprar pela internet (e mesmo em sites de lojas grandes e oficias, como por exemplo, a Nike, os tênis esgotam rapidamente) e, devido à grande procura, há sobrecarga de acessos no site ao mesmo tempo, gerando diversos problemas.
+É imprescindível, portanto, a criação de um sistema de e-commerce (um comércio eletrônico) que visa levar ao cliente o seu tão desejado sneaker, de acordo com suas necessidades e dentro do seu orçamento. Essa ferramenta ajudará as pessoas a encontrarem seu produto, sem correr o risco de perder horas tentando realizar a sua compra e não conseguir adquirir o produto no final.
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
