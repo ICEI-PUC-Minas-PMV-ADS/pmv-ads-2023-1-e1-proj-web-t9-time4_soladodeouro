@@ -21,7 +21,7 @@ Sendo assim, cita-se como objetivos específicos:
 
 • Network em os usuários através do site, através de um fórum;
 
-• Agregar segurança da compra através de etapas de verificação; 
+• Agregar segurança da compra através de etapas de verificação
 
 ## Justificativa
 
