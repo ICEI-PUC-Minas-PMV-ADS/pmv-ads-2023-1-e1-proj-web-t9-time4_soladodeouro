@@ -21,21 +21,24 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O enfoque principal da criação do e-commerce é permitir que o consumidor faça compras de maneira rápida e fácil, recebendo o produto em casa sem a necessidade de se deslocar a uma loja física, mas promovendo toda a credibilidade que ela ofereceria, através de uma vasta gama de informações sobre os produtos e a fabricação. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Sendo assim, cita-se como objetivos específicos:
+
+• Unificar informações sobre os produtos em um único lugar;
+
+• Network em os usuários através do site, através de um fórum;
+
+• Agregar segurança da compra através de etapas de verificação; 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+É notório que, com o avanço do comércio eletrônico, cresceu também o número de golpes realizados no ambiente digital. Um dos casos mais comuns são os &quot;sites
+semelhantes&quot; ou &quot;lookalike sites&quot;, que simulam portais de empresas idôneas para roubar informações dos usuários através do método phishing. Segundo uma pesquisa da empresa global Signifyd, 87% dos consumidores já foram vítimas de roubo de dados ou conhecem alguém que passou por tal situação.
+Outro fator importante, é a grande falsificação de mercadorias, que é um fenômeno que acontece mundialmente. Além disso, conforme OCDE, a categoria de
+calçados representa 25% do total das vendas dos produtos ilegais.
+Diante disso, torna-se evidente que há uma falta de sites especializados, com credibilidade e segurança nas vendas, máxima proteção e segurança de dados e troca de
+informações entre os usuários.
 
 ## Público-Alvo
 
