@@ -1,4 +1,4 @@
-# Especificações do Projeto
+# Especificações do Projeto.
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
