@@ -1,6 +1,7 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Inicialmente, a trajetória do universo dos sneakers (tênis ou sapatos esportivos) começou a trilhar seu caminho por volta dos anos de 1980. Nesse período, seu objetivo era se destacar de modo que virasse sucesso entre as pessoas da época, e de fato aconteceu, a ideia dos sneakers alcançou seu êxito, e com o passar do tempo acumulou mil hares de fãs, colecionadores e apaixonados por tênis e pela cultura de seu surgimento.
+Sendo assim, atualmente muitas pessoas dedicam grande parte de seu tempo e dinheiro em coleções especiais e modelos limitados. As peças destes calçados são colocadas no mercado como peças raras e de custo alto, justamente pelo fato de lançarem coleções temporárias e limitadas, em concomitância com o fato de ter se tornado popular, luxuoso e descolado.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
