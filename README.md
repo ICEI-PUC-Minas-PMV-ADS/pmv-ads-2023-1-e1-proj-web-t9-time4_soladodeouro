@@ -6,7 +6,14 @@
 
 `01/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O enfoque principal da criação do e-commerce é permitir que o consumidor faça
+compras de maneira rápida e fácil, recebendo o produto em casa sem a necessidade de se deslocar a uma loja física, mas promovendo toda a credibilidade que ela ofereceria, através de uma vasta gama de informações sobre os produtos e a fabricação.
+Sendo assim, cita-se como objetivos específicos:
+
+• Unificar informações sobre os produtos em um único lugar;
+• Network em os usuários através do site, através de um fórum;
+• Agregar segurança da compra através de etapas de verificação;
+
 
 ## Integrantes
 
