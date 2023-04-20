@@ -2,25 +2,21 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A seguir estão apresentadas as personas que foram encontradas durante a pesquisa de resolução e entendimento do problema.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| Pedro Paulo | Idade: 30 | Persona 1 | 
+|:---:|:---:|:---:|
+| ![Persona Pedro Paulo]()| **Ocupação:**  Analista em marketing online e fluxo orgânico em uma companhia de design.| **Aplicativos:**  Instagram LinkedIn YouTube |
+| **Motivações**| **Frustrações** | **Hobbies e História** |
+| Ser referencia no mundo do design, inovando com um novo estilo de moda | Dificuldade em confiar seus dados a sites de compra online, falta de informação detalhada sobre o produto | Gosta de estudar sobre design. Por influência de seus artistas preferidos, quer ter um estilo desenvolvido como o deles |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| Felipe Augusto | Idade: 21 |Persona 2|
+|:---:|:---:|:---:|
+| ![Felipe Augusto]() | **Ocupação:** Influenciador Digital| **Aplicativos:** Instagram YouTube Twitter Tiktok |
+| **Motivações**| **Frustrações**| **Hobbies e História** |
+|  | Não acha sites em que é possível adaptar o tamanho das fontes. | Passar tempo com os netos. Conhecer novos lugares. Participar de grupos de leitura.|
 
 ## Histórias de Usuários
 
