@@ -46,33 +46,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID   | Descrição do Requisito  | Prioridade |
+|-----|-----------------------------------------|----|
+|RF-01| O site deve fazer a verificação de e-mail no registro de novos usuários e possibilitar o usuário redefinir a senha de login | ALTA | 
+|RF-02| O site deve permitir a alteração/consulta dos dados pessoais do usuário   | MÉDIA |
+|RF-03| O site deve conter uma aba "Calendário". Nessa aba o usuário poderá acessar para conferir a data dos futuros lançamentos, com especificações de marca, linha e criador do tênis | MÉDIA |
+|RF-04| O site deve ter um Fórum de interação entre os usuários. Nessa área, os consumidores poderão interagir sobre o universo dos calçados | BAIXA |
+|RF-05| O site deve apresentar informações na tela inicial (imagem ilustrativa, nome, preço e etc.) correspondente ao produto apresentado |MÉDIA|
+|RF-06| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar o que for preciso |ALTA|
+|RF-07| O site deve permitir visualizar as informações de contato do mantenedor do site |MÉDIA|
+|RF-08| O site deve ter a função popularmente chamada de "carrinho". Nessa função o cliente pode salvar seus produtos de preferência, verificar o frete e finalizar a sua compra da forma adequada |ALTA|
+|RF-09| O site deve utilizar uma API externa para calcular o frete e prazo de entrega do produto |ALTA|
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização no ambiente mobile de forma adequada |  ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |MÉDIA|
 
 ## Restrições
 
@@ -80,12 +73,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue no final do semestre letivo, na data XX/XX/2023 |
+|02| O site deve se restringir a tecnologias básicas da Web no Frontend |
+|03| A equipe não deve terceirizar nada em relação ao desenvolvimento do projeto |
