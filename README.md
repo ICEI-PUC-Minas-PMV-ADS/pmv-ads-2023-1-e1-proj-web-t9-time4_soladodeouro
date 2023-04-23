@@ -24,7 +24,7 @@ Sendo assim, cita-se como objetivos específicos:
 * João Henrique Perdigão Salles
 * Samuel Magalhães Resende
 * Otávio Cavallieri Silva
-* Christian
+* Christian Wilian Santos
 
 ## Orientador
 
