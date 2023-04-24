@@ -62,5 +62,7 @@ Uma página destinada a atualizar os usuários sobre as atualidades do estilo de
 
 
 ### Fale Conosco
+O Fale Conosco é bem simples e objetiva, em nosso canto esquerdo e disponibilizado nossos canais de comunicação onde o user consegue ter acesso as informações de Contatos, seja para levar algum elogio ou caso esteja precisando de algo.
 
 ![Fale Conosco](img/FaleConosco.jpg)
+
