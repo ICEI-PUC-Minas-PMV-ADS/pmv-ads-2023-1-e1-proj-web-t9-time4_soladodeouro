@@ -5,21 +5,64 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ Apresentamos as principais interfaces da plataforma. Ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
+Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/UserFlow.png)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipeT
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 
 ## Wireframes
 
-![Tela Inicial](img/Pagina-Inicial.jpg)
+### Pagina Inicial
+A página inicial mostra os tênis mais bem avaliados e os últimos lançamentos, juntamente com um banner apresentando os principais pontos do ecommerce e outros funcionalidades, como o fale conosco e o direcionamento para o fórum de usuários. Ao clicar nos tênis de exibição inicial ou na lista de calçados, será direcionando para a página de compra e informações do tênis.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+![Tela Inicial](img/PaginaInicial.jpg)
+
+
+
+### Compra
+Nessa página será apresentado  todas as informações e curiosidades sobre o tênis, com a opção de compra, numeração e quantidade. O cálculo do frente ficará embaixo da opção de compra, ao lado das fotos do tênis.
+
+![Tela de Compra](img/Informações.jpg)
+
+
+
+### Cadastro/login/Redefinição de Senha
+
+Campos com nome completo, telefone, email e senha. Apos digitar esses dados e verificar o e-mail inserido, o usuário sera levado a tela de login onde deve digitar seu email e senha para entrar na conta.
+Tela que permite ao usuário recuperar a senha. Colocando seu e-mail e clicando no botão para gerar o código de verificação que será enviado ao email digitado, com ele o usuário poderá acessar a pagina de alteração da senha de fato.
+
+![Tela de Cadastro](img/Cadastro.jpg)
+
+
+
+### Sobre Nós
+É um esboço visual básico que representa a estrutura e o layout da página "Sobre Nós" de um site ou aplicativo.
+O wireframe pode incluir elementos como o título, uma breve descrição da empresa, informações sobre a equipe, depoimentos de clientes, imagens e links para páginas relacionadas.
+
+![Sobre Nós](img/SobreNós.jpg)
+
+
+
+### Fórum
+O fórum representa a área onde o usuário poderá interagir com outros _sneakerheads_ a respeito dos calçados, curiosidades, e quaisquer tópicos que lhe sejam interessantes.
+
+![Fórum](img/Fórum.jpg)
+
+
+
+### Curiosidades Sneakerhead
+Uma página destinada a atualizar os usuários sobre as atualidades do estilo de vida _sneakerhead_
+
+![Curiosidades](img/Curiosidades.jpg)
+
+
+
+### Fale Conosco
+O Fale Conosco é bem simples e objetiva, em nosso canto esquerdo e disponibilizado nossos canais de comunicação onde o user consegue ter acesso as informações de Contatos, seja para levar algum elogio ou caso esteja precisando de algo.
+
+![Fale Conosco](img/FaleConosco.jpg)
+
