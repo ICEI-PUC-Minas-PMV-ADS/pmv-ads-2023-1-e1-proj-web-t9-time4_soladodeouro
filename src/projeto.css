@@ -20,7 +20,7 @@ h2{
     margin: 12%;
       
 }
-#form{
+#cadastro, #login {
     position: relative;
     top: 45%;
     left: 47%;
