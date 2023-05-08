@@ -68,3 +68,8 @@ input{
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
 }
+
+.btn button:hover {
+    background:linear-gradient(45deg,#a18944, #000000);
+    color: #fff;
+}
