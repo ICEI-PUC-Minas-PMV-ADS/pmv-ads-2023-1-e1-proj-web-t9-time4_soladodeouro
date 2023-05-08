@@ -3,24 +3,27 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     background: linear-gradient(-45deg, #000000, #FFd966);
     font-family: "Poppins", sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
     color: #000000;
     margin: 10%;
 }
-h2{
+
+h2 {
     text-align: center;
     color: #000000;
     margin: 12%;
-      
 }
-#cadastro, #login {
+
+.main-bg {
     position: relative;
     top: 45%;
     left: 47%;
@@ -32,26 +35,27 @@ h2{
     align-items: center;
     animation: inci;
 }
-.title{
+.title {
     font-size: 2.0em;
     margin-bottom:100%;
 }
+
 input{
     min-width: 250px;
     border-radius: 7px;
-    border: 2px #666666 solid;
+    border: 2px #232222 solid;
     padding: 5px;
     margin: 0px 0px 12px -5px;
     font-family: "Poppins", sans-serif;
 }
 
-#btn{
+.btn {
     margin-top: 10%;
     text-align: center;
-    width: 100%;
-    
+    width: 100%; 
 }
-#btn button{
+
+.btn button {
     background:linear-gradient(45deg,#FFd966, #000000);
     border:none;
     width: 80%;
@@ -63,4 +67,3 @@ input{
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
 }
-

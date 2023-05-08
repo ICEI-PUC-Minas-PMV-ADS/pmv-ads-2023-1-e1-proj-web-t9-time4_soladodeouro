@@ -1,46 +1,61 @@
 <!DOCTYPE html>
- <html lang="en">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Cadastro</title>
-    <link rel="stylesheet" href="projeto.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" href="./css/projeto.css">
 </head>
- <body>
 
-   <div id="cadastro">
-     <form action="">
-        <h1>Solado de Ouro</h1>
-        <h2>CADASTRO</h2>
-            <label for="nome">
-                <div class="input">
-                  <input id="nome" name ="nome" placeholder ="Nome Completo" type="text">
-                </div>
-            </label>
-            
-            <label for="email">
-                <div class = "input">
-                  <input id="email" name ="email" placeholder ="Email" type="text">
-                </div>
-            </label>
+<body>
 
-            <label for="telefone">
-                <div class = "input">
-                  <input id="telefone" name="telefone" placeholder="Telefone" type="text">
-                </div>
-            </label>
-            
-            <label for="senha">
-                <div class="input">
-                  <input id="senha" name ="senha" placeholder ="Senha" type="password">
-                </div>
-            </label>
+  <div class="main-bg">
+    <form action="">
+      <h1>Solado de Ouro</h1>
+      <h2>CADASTRO</h2>
+      <label for="nome">
+        <div class="input">
+          <input id="nome" name="nome" placeholder="Nome Completo" type="text">
+        </div>
+      </label>
 
-            <div id="btn">
-                <button type="submit">Enter</button>
-            </div>
-      </form>
-     </div>
+      <label for="cpf">
+        <div class="input">
+          <input id="cpf" name="cpf" placeholder="CPF" type="password">
+        </div>
+      </label>
+
+      <label for="email">
+        <div class="input">
+          <input id="email" name="email" placeholder="Email" type="text">
+        </div>
+      </label>
+
+      <label for="telefone">
+        <div class="input">
+          <input id="telefone" name="telefone" placeholder="Telefone" type="text">
+        </div>
+      </label>
+
+      <label for="senha">
+        <div class="input">
+          <input id="senha" name="senha" placeholder="Senha" type="password">
+        </div>
+      </label>
+
+      <label for="repetir-senha">
+        <div class="input">
+          <input id="repetir-senha" name="repetir-senha" placeholder="Repitir Senha" type="password">
+        </div>
+      </label>
+
+      <div class="btn">
+        <button type="submit">Enter</button>
+      </div>
+    </form>
+  </div>
 </body>
+
 </html>
