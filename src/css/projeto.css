@@ -14,13 +14,14 @@ body {
 h1 {
     text-align: center;
     color: #000000;
-    margin: 10%;
+    margin-top: 5px;
 }
 
 h2 {
     text-align: center;
     color: #000000;
-    margin: 12%;
+    margin: 10px 30px;
+
 }
 
 .main-bg {
@@ -50,7 +51,7 @@ input{
 }
 
 .btn {
-    margin-top: 10%;
+    margin: 32px 5px 0px 5px ;
     text-align: center;
     width: 100%; 
 }
