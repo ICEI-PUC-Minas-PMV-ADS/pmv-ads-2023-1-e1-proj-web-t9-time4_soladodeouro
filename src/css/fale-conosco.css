@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+main{
+    display: flex;
+    height: 90vh;
+    background: linear-gradient(-45deg, #000000, #FFd966);
+}
+  
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+    border: 1px solid black;
+    background: #000000;
+    color: white;
+}
+  
+  
+.img{
+    height: 205px;
+    border: none;
+    border-radius: 3px;     
+}
+  
+h4{
+    padding-bottom: 8px;
+}
+  
+button{
+    width: 40%;
+    height: 5vh;
+    margin-top: 8px;
+}
+  
+button:hover{
+    background: rgba(170, 170, 170, 0.752);
+}
+  
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+  
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+  
+.cabecalho{
+    display: flex;
+    height: 12vh;
+    background:#000000;
+    color: white;
+}
+  
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+}
+  
+.contato{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
