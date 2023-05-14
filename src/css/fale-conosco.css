@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .menu-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    border: 1px solid black;
+    background: #000000;
+    color: white;
+    padding: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+  }
+  
+   
+  main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 88vh;
+    background: linear-gradient(-45deg, #000000, #FFd966);
+  
+  }
+
+  .img{
+    height: 265px;
+    border: none;
+    border-radius: 200px; 
+    box-shadow: 0px 30px 35px black;
+    
+  }
+
+  .imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+    }
+  
+  .mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    font-size: 1.5rem;
+    
+    
+  }
+
+  .info{
+     width: 15em;
+     height: 28px;
+     border: 1.2px black solid ;
+     margin: 4px 0px;
+  
+  }
+
+  .input{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 30px 35px black;
+  }
+   
+  h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: 0px 5px 30px rgba(128, 128, 128, 0.541) inset;
+  }
+  
+  h4{
+    padding-bottom: 8px;
+  }
+  button{
+    font-weight: bold;
+    width: 35%;
+    height: 5vh;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+  button:hover{
+    background: rgba(170, 170, 170, 0.752);
+  }
+
+
+  .rodape{
+    display: flex;
+    height: 8vh;
+    background:#000000;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .redes{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    font-size: 28px;
+  }
+  
+  .contato{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    padding-left: 5px;
+    border: none;
+    
+  }
