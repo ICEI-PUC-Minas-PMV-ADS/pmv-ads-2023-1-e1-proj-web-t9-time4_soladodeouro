@@ -25,7 +25,6 @@ h2 {
 } 
 
 .main-bg {
-    background-image: url("logo.jpg");
     position: relative;
     top: 45%;
     left: 47%;
@@ -73,8 +72,4 @@ input{
 .btn button:hover {
     background:linear-gradient(45deg,#a18944, #000000);
     color: #fff;
-}
-
-form{
-    background-image: url("logo.jpg");                     
 }
