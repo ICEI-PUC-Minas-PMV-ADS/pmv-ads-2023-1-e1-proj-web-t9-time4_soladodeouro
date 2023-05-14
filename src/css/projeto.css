@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* body {
+body {
     width: 100%;
     height: 100vh;
     background: linear-gradient(-45deg, #000000, #FFd966);
@@ -22,7 +22,7 @@ h2 {
     color: #000000;
     margin: 10px 30px;
 
-} */
+}
 
 .main-bg {
     position: relative;
@@ -36,6 +36,7 @@ h2 {
     align-items: center;
     animation: inci;
 }
+
 .title {
     font-size: 2.0em;
     margin-bottom:100%;
