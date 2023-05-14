@@ -24,45 +24,6 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-    font-size: 6rem;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: 6rem;
-    margin-bottom: 5rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
-h3 {
-    font-size: 5rem;
-}
-h4 {
-    font-size: 4.5rem;
-}
-h5 {
-    font-size: 4rem;
-}
-h6 {
-    font-size: 3.5rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    margin-bottom: 3rem;
-}
-
-ul li {
-    margin-left: 19px;
-}
 
 #total {
     background: var(--light-gray-color);
@@ -77,6 +38,11 @@ ul li {
 .secondary-bg {
     background: var(--primary-color);
     color: var(--light-gray-color);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+}
+
+.grid-main-heading {
+    color: #eee;
 }
 
 .intro-content {
@@ -100,8 +66,20 @@ ul li {
     border-radius: 20%;
 }
 
+.intro-img img {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
 .intro-text-content, .intro-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+}
+
+.grid {
+    display: flex;
+}
+
+.grid div {
+    margin: 4rem;
 }
