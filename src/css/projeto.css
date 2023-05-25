@@ -5,6 +5,7 @@
 }
 
  body {
+    background:linear-gradient(45deg,#FFd966, #000000);
     width: 100%;
     height: 100vh;
     font-family: "Poppins", sans-serif;
