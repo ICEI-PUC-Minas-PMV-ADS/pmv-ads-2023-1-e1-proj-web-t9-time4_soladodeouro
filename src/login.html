@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/projeto.css">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="./css/cadastro-login-redefinir.css">
 </head>
 <body>
-    <div class="main-bg">
-		<form action="">
-		   <h1>Solado de Ouro</h1>
-		   <h2>Login</h2>
-			 
-			   <label for="email">
-				   <div class = "input">
-					 <input id="email" name ="email" placeholder ="Email" type="text">
-				   </div>
-			   </label>
-   
-			   <label for="senha">
-				   <div class="input">
-					 <input id="senha" name ="senha" placeholder ="Senha" type="password">
-				   </div>
-			   </label>
-   
-			   <div class="btn">
-				   <button type="submit">Enter</button>
-			   </div>
-		 </form>
+	<div class="mainContainer">
+		<div class="left">
+			<a href="">
+				<img src="img/logo.jpg" alt="logo">
+			</a>
 		</div>
+
+		<div class="right">
+			<h2>Login</h2>
+			<form>
+
+				<label for="email">
+					<input type="email" id="email" name="email" placeholder="Seu email" required>
+				</label>
+
+				<label for="senha">
+					<input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+				</label>
+
+				<button type="submit">Finalizar</button>
+		    </form>
+			<p>Para logar sua conta, é necessário aceitar nossos Termos & Condiçoes.</p>
+			<a href="" class="redefiniçao">Esqueceu sua senha?</a>
+		</div>
+	</div>
 </body>
 </html>
