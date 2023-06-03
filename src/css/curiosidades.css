@@ -12,7 +12,7 @@ body {
 
  /* CABEÇALHO */
 
-header {
+.caixa {
     background-color: #1B1A17;
     height: 10%;
 }
@@ -92,12 +92,12 @@ a {
 	border-radius: 10px;
 }
 
-footer {
+.footer {
     background-color: #1B1A17;
     height: 150px;
 }
 
-footer h2 {
+.footer h2 {
     color: #FEFEFE;
     display: flex;
     justify-content: center;
