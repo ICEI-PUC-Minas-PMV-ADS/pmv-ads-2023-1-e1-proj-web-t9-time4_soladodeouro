@@ -55,7 +55,8 @@ main::after {
   
 
 .informaçaoPrincipal{
-    width: 300px;
+    width: 350px;
+    padding-left: 9em;
 }
 
 .imagemPrincipal{
@@ -68,14 +69,20 @@ img{
     border-radius: 12px;
 }
 
+.opcao2 {
+    height: 18em;
+}
+
 .name{
     font-size: 35px;
     margin: 15px 10px;
+    color: rgba(173, 7, 7, 0.877);
+    text-align: center;
 }
 
 .valor{
     margin: 15px 10px;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 p{
@@ -205,9 +212,11 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 4px;
+    
 }
 
-.redes > i{
+.redes > a{
+    color: black;
     font-size: 50px;
 }
 
