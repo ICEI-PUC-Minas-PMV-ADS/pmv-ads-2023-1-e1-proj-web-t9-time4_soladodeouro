@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@300 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #FFF2CC;
+    --cor-secundaria: #231F20;
+    --cor-terciaria: #C07F00;
+    --cor-branca: #FFFFFF;
+
+    --fonte-primaria: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.cabecalho_menu_link {
+    color: var(--cor-branca);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.cabecalho_lista_links {
+    list-style-type: none;
+    width: 100px;
+    display: flex;
+    gap: 40px;
+    margin-right: 270px;
+}
+
+/* DIVISÃO FÓRUM */
+div {
+    background-color: var(--cor-terciaria);
+    padding: 25px 25px;
+}
+
+/* MAIN */
+main h2 {
+    margin: 20px 0 0 0;
+    font-size: 35px;
+    text-align: center;
+}
+.apresentacao {
+    padding: 50px;
+    line-height: 30px;
+}
+
+.topicos_tenis {
+    margin-left: 300px;
+    text-align: center;
+}
+
+.topicos {
+    margin-bottom: 15px;
+}
+
+.topicos_lista_tenis {
+    width: 700px;
+    border: 3px solid var(--cor-secundaria);
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.topicos_titulo_tenis {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.marcas_tenis {
+    display: inline-block;
+    background-color: var(--cor-terciaria);
+    border-radius: 3px;
+}
+
+/* POSTAGENS */
+.postagem_conteudo {
+    list-style-type: none;
+    border: 3px solid #231F20;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.postagem h2 {
+    padding-bottom: 25px;
+}
+
+.postagem_conteudo_lista {
+    margin-top: 10px;
+}
+
+/* DÚVIDA */
+.duvida {
+    background-color: var(--cor-primaria);
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+.duvida fieldset {
+    display: inline-block;
+    position: static top;
+}
+
+.duvida form {
+    margin: 20px 10px 20px 10px;
+}
+
+/* FOOTER */
+.rodape {
+    background-color: #C07F00;
+    padding: 25px 0;
+    text-align: center;
+}
