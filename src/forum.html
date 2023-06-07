@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forum.css">
+    <title>Fórum</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1><img src="../src/logo.jpg"></h1>
+        <nav class="cabecalho_menu">
+            <ul class="cabecalho_lista_links">
+                <li><a class="cabecalho_menu_link" href="#">Home</a></li>
+                <li><a class="cabecalho_menu_link" href="#">Sacola</a></li>
+                <li><a class="cabecalho_menu_link" href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h2 class="div-forum">Fórum</h2>
+    </div>
+
+    <main>
+        <h2>Tópicos</h2>
+        <section class="apresentacao">
+            <ul class="topicos_tenis">
+                <li class="topicos topicos_lista_tenis">
+                    <h3><a class="topicos_titulo_tenis" href="#">Nike</a></h3>    
+                    <p class="marcas_tenis">Jordan</p>
+                    <p class="marcas_tenis">Air Max</p>
+                    <p class="marcas_tenis">Dunk</p>
+                </li>
+                <li class="topicos topicos_lista_tenis">
+                    <h3><a class="topicos_titulo_tenis" href="#">Adias</a></h3>    
+                    <p class="marcas_tenis">Yeezy</p>
+                    <p class="marcas_tenis">Superstar</p>
+                    <p class="marcas_tenis">Bad Bunny</p>
+                </li>
+                <li class="topicos topicos_lista_tenis">
+                    <h3><a class="topicos_titulo_tenis" href="#">New Balance</a></h3>    
+                    <p class="marcas_tenis">5740</p>
+                    <p class="marcas_tenis">550</p>
+                    <p class="marcas_tenis">990v6</p>
+                </li>
+                <li class="topicos_lista_tenis">
+                    <h3><a class="topicos_titulo_tenis" href="#">Puma</a></h3>    
+                    <p class="marcas_tenis">Trinity</p>
+                    <p class="marcas_tenis">RBD Game</p>
+                    <p class="marcas_tenis">Smash V2</p>
+                </li>
+            </ul>
+        </section>
+
+        <div class="postagem">
+            <h2>Postagens</h2>
+            <ul class="postagem_lista">
+                <li class="postagem_conteudo">
+                    <h3>Númeração de tênis</h3>
+                    <p>Boa tarde! queria saber se alguém possui a Númeração 42 do Jordan Chicago, disponível para venda?</p>
+                    <p>Por: Pedro Júnior</p>
+                </li>
+                <li class="postagem_conteudo_lista postagem_conteudo">
+                    <h3>Modelo de tênis</h3>
+                    <p>Bom dia a Todos. Alguém conhece ou sabe quem tem um Nike Air Max X Off White para venda?</p>
+                    <p>Por: Felipe Augusto</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="duvida">
+            <h3>Nova Postagem</h3>
+            <fieldset>
+                <form>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo">
+            
+                    <label for="conteudo">Conteúdo:</label>
+                    <textarea id="conteudo" name="conteudo"></textarea>
+            
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" id="usuario" name="usuario">
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </div>
+
+        <footer class="rodape">
+            <p>© Fórum Solado de Ouro. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+</body>
+</html>
