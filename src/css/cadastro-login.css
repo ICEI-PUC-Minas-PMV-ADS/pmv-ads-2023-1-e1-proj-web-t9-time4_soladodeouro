@@ -23,6 +23,7 @@ p {
 	justify-items: center;
 	align-items: center;
     background:linear-gradient(-45deg, #000000, #FFd966);
+    padding: 10rem;
 }
 
 
@@ -32,7 +33,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 input {

@@ -20,37 +20,22 @@ body {
     box-sizing: border-box;
 }
 
-/* CABEÇALHO */
-.cabecalho {
-    background-color: var(--cor-secundaria);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-img {
-    width: 100px;
-    margin-left: 100px;
-}
-
-.cabecalho_menu_link {
-    color: var(--cor-branca);
-    font-size: 1.5em;
-    text-decoration: none;
-}
-
-.cabecalho_lista_links {
-    list-style-type: none;
-    width: 100px;
-    display: flex;
-    gap: 40px;
-    margin-right: 270px;
-}
-
 /* DIVISÃO FÓRUM */
-div {
+.div-forum {
     background-color: var(--cor-terciaria);
     padding: 25px 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.div-forum img {
+    height: 5rem;
+    border-radius: 100%;
+
 }
 
 /* MAIN */
@@ -122,11 +107,4 @@ main h2 {
 
 .duvida form {
     margin: 20px 10px 20px 10px;
-}
-
-/* FOOTER */
-.rodape {
-    background-color: #C07F00;
-    padding: 25px 0;
-    text-align: center;
 }

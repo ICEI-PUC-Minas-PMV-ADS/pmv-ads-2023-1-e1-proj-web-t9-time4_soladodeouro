@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/forum.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/projeto.css">
+
     <title>Fórum</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <h1><img src="../src/logo.jpg"></h1>
-        <nav class="cabecalho_menu">
-            <ul class="cabecalho_lista_links">
-                <li><a class="cabecalho_menu_link" href="#">Home</a></li>
-                <li><a class="cabecalho_menu_link" href="#">Sacola</a></li>
-                <li><a class="cabecalho_menu_link" href="#">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Menu -->
+    <section class="menu">
+        <div class="caixa">
+            <h1>Solado de Ouro</h1>
+            <nav>
+                <ul>
+                    <li><a href="pagina-inicial.html">Home</a></li>
+                    <li><a href="#">Sacola</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <div>
-        <h2 class="div-forum">Fórum</h2>
+        <div class="hold"></div>
+    </section>
+
+    <div class="header div-forum">
+        <h2 >Fórum</h2>
+        <img src="./img/logo.jpg" alt="">
     </div>
 
     <main>
@@ -54,7 +63,7 @@
             </ul>
         </section>
 
-        <div class="postagem">
+        <div class="postagem div-forum">
             <h2>Postagens</h2>
             <ul class="postagem_lista">
                 <li class="postagem_conteudo">
@@ -70,7 +79,7 @@
             </ul>
         </div>
 
-        <div class="duvida">
+        <div class="duvida div-forum">
             <h3>Nova Postagem</h3>
             <fieldset>
                 <form>
@@ -87,10 +96,32 @@
                 </form>
             </fieldset>
         </div>
-
-        <footer class="rodape">
-            <p>© Fórum Solado de Ouro. Todos os direitos reservados.</p>
-        </footer>
     </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="contato">
+
+            <h2>Contato</h2>
+            <i class='bx bx-phone'>3333-4444</i>
+            <i class='bx bx-envelope'>soladodeouro@gmail.com</i>
+            <i class='bx bxs-map-pin'>Belo Horizonte - MG</i>
+            <i class='bx bx-clipboard'>CNPJ: 33.111.017/0001-22</i>
+
+        </div>
+
+        <div class="redes">
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-whatsapp'></i></a>
+        </div>
+
+        <div id="copyright">
+            <h4>© 2023 Solado de Ouro - todos os direitos reservados.</h4>
+        </div>
+
+    </footer>
+
 </body>
 </html>
