@@ -5,9 +5,9 @@
 }
 
 body {
+    font-family: "Poppins", sans-serif;
     background:#0c0c0a;
     width: 100%;
-    font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -18,43 +18,13 @@ h3 {
     font-size: 0.7rem;
 }
 
-/* Menu */
-.caixa {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    background-color: #1B1A17;
-    height: 1.5rem;
-    top: 0;
-    left: 0;
-}
-
-.menu h1 {
-    color: #FFFFFF;
-}
-
-.menu nav ul {
-    list-style-type: none;
-    display: flex;
-    padding-right: 2rem;
-}
-
-.menu a {
-    color: #FFFFFF;
-    margin: 0 15px 0 15px;
-    text-decoration: none;
-    font-size: 20px;
-}
 
 /* Header */
 header {
     background-image: url("../img/sneaker1.jpg");
     background-size: auto 45rem;
     background-position: right bottom;
-    margin-top: 3.5rem;
+    /* margin-top: 3.5rem; */
     height: auto;
     padding: 2rem;
     font-size: 1.3rem;
@@ -83,6 +53,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 5fr 1fr;
+    padding-bottom: 5rem;
 }
 
 /* mid */
@@ -105,6 +76,10 @@ main {
     gap: 0.5rem;
 }
 
+.artigos a {
+    text-decoration: none;
+}
+
 .arts {
     border: 1px solid #c59608;
     border-radius:5px;
@@ -120,7 +95,6 @@ main {
     background:linear-gradient(45deg,#232313, #232121);
     text-decoration: underline;
 }
-
 .more-models {
     color: #FFFFFF;
     border: 1px solid #c59608;
@@ -185,41 +159,3 @@ main {
     transition: 0.5s;
 }
 
-/* Footer */
-footer{
-    background-color: #1B1A17;
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 18px;
-    margin-top: 5rem;
-}
-
-.contato{
-    display: flex;
-    flex-direction: column;
-    padding-left: 3px;
-    font-size: 18px;
-    color: white;
-}
-
-
-.redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    
-}
-
-.redes > a{
-    color: black;
-    font-size: 50px;
-}
-
-#copyright {
-    color: white;
-    font-size: 0.8rem;
-    align-self: center;
-    text-align: right;
-}

@@ -3,35 +3,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-weight: bold;
+}
+
+body {
     font-family: 'Lato', sans-serif;
-}
-
-header {
-    background-color: #1B1A17;
-    height: 10%;
-}
-
-.caixa {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1rem 1rem 1rem;
-}
-
-header h1 {
-    color: #FFFFFF;
-}
-
-.lista_cabecalho {
-    display: flex;  
-}
-
-header a {
-    color: #FFFFFF;
-    margin: 0 15px 0 15px;
-    text-decoration: none;
-    font-size: 20px;
+    font-weight: bold;
 }
 
 main{
@@ -85,13 +61,13 @@ img{
     font-size: 28px;
 }
 
-p{
+.list p{
     font-size: 22px;
     margin: 0px 10px;
    
 }
 
-ul{
+.list ul{
     display: flex;
     gap: 10.5px;
     list-style-type: none;
@@ -188,52 +164,4 @@ button:hover {
     font-size: 20px;
     margin: 0px 35px;
     padding-bottom: 15px;
-}
-
-footer{
-    background-color: #1B1A17;
-    justify-content: space-evenly;
-    padding: 1em 1em 1em 1em;
-    display: flex;
-    font-size: 18px;
-}
-
-.contato{
-    display: flex;
-    flex-direction: column;
-    padding-left: 3px;
-    font-size: 18px;
-    color: white;
-}
-
-.redes{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    
-}
-
-.redes > a{
-    color: black;
-    font-size: 50px;
-}
-
-.linkfooter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-a{
-    margin: 10px 0px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-footer a:hover{
-    text-decoration: underline;
 }
