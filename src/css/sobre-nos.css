@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #0A1128;
-    --main-color: linear-gradient(-45deg, #000000, #FFd966);;
+    --primary-color: linear-gradient(-45deg, #000000, #110237);
+    --main-color: linear-gradient(-45deg, #000000, #FFd966);
     --light-gray-color: #eee;
     --secondery-color: crimson;
     --gap: 3rem;
@@ -16,21 +16,24 @@ body {
     color: var(--primary-color);
 }
 
+p {
+    margin-top: 1rem;
+}
+
 
 
 .super-bg {
     /* background: var(--main-color); */
-    background-image: url("../img/logo.jpg");
-    background-size:;
+    background-image: url("../img/sneaker2.jpg");
     color: var(--primary-color);
     font-weight: bold;
-    -webkit-text-stroke: 0.2px white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .secondary-bg {
     background: var(--primary-color);
     color: var(--light-gray-color);
+    font-size: larger;
     box-shadow: 0 0 100px rgba(0, 0, 0, 1);
 }
 
@@ -57,22 +60,48 @@ body {
     min-width: 400px;
     height: auto;
     border-radius: 20%;
-}
-
-.intro-img img {
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
 }
+
 
 .intro-text-content, .intro-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    /* align-items: center; */
+}
+
+.intro-text-content > div {
+    padding: 2rem;
+    border-radius: 25px;
+    border: 3px solid black;
+    background: var(--main-color);
 }
 
 .grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid div {
     margin: 4rem;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    background: var(--main-color);
+}
+
+.grid div ul {
+    list-style-type: none;
+
+}
+
+.grid-description {
+    -webkit-text-stroke: #000000 2px;
+    padding-left: 4.2rem;
+    font-size: 3rem;
+}
+
+#valores {
+    margin-top: 1rem;
 }

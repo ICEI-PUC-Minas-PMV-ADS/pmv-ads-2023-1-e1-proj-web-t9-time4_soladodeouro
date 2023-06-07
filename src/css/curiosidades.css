@@ -10,36 +10,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
- /* CABEÇALHO */
-
-.caixa {
-    background-color: #1B1A17;
-    height: 10%;
-}
-
-.caixa {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1rem 1rem 1rem;
-}
-
-h1 {
-    color: #FFFFFF;
-}
-.lista_cabecalho {
-    display: flex;
-    
-}
-
-
-a {
-    color: #FFFFFF;
-    margin: 0 15px 0 15px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
 /* BANNER */
 
 .banner {
@@ -90,16 +60,4 @@ a {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
-}
-
-.footer {
-    background-color: #1B1A17;
-    height: 150px;
-}
-
-.footer h2 {
-    color: #FEFEFE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

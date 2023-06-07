@@ -20,8 +20,6 @@ p {
     display: grid;
 	grid-template-columns: repeat (2, 1fr);
 	grid-template-areas: "main aside";
-	height: 100vh;
-	width: 100vw;
 	justify-items: center;
 	align-items: center;
     background:linear-gradient(-45deg, #000000, #FFd966);
@@ -47,12 +45,13 @@ input {
 
 
 
-img{
-    
-    height: 99vh;
-	width: 55vw;
-    border: 1em;
-    
+.solado {
+width: 100%;
+}
+
+.solado img {
+    height: 100vh;
+	/* width: 100%; */
 }
 
 button {
