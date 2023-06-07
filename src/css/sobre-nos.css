@@ -9,30 +9,23 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
     color: var(--primary-color);
-    line-height: 1.5;
 }
 
 
-#total {
-    background: var(--light-gray-color);
-    color: #0A1128;
-}
 
 .super-bg {
-    background: var(--main-color);
+    /* background: var(--main-color); */
+    background-image: url("../img/logo.jpg");
+    background-size:;
     color: var(--primary-color);
+    font-weight: bold;
+    -webkit-text-stroke: 0.2px white;
+    font-size: 1.2rem;
 }
 
 .secondary-bg {
@@ -50,13 +43,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .main-content {
-    max-width: 120rem;
+    /* max-width: 120rem; */
     margin:auto;
-    padding: 10rem var(--gap);
+    padding: 10rem 5rem;
 }
 
 .intro-img img {

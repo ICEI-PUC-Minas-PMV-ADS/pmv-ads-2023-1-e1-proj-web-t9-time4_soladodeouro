@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background:#0c0c0a;
+    width: 100%;
+}
+
+p {
+    margin-top: 0.7rem;
+}
+
+h3 {
+    font-size: 0.7rem;
+}
+
+
+/* Header */
+header {
+    background-image: url("../img/sneaker1.jpg");
+    background-size: auto 45rem;
+    background-position: right bottom;
+    /* margin-top: 3.5rem; */
+    height: auto;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    height: 265px;
+    border: none;
+    border-radius: 200px; 
+    box-shadow: 0px 30px 35px black;
+}
+
+.description {
+    color: #faa41b;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Main Content */
+main {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding-bottom: 5rem;
+}
+
+/* mid */
+.mid {
+    padding: 7rem 3rem;
+}
+
+.mid-description {
+    padding-left: 1.7rem;
+    color: #faa41b;
+    margin-bottom: 1rem;
+}
+
+.artigos {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+    border-top: 1px dotted #faa41b;
+    gap: 0.5rem;
+}
+
+.artigos a {
+    text-decoration: none;
+}
+
+.arts {
+    border: 1px solid #c59608;
+    border-radius:5px;
+    width: 16em;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(45deg,#c59608, #232121);
+    color: #FFFFFF;
+}
+
+.arts:hover {
+    cursor: pointer;
+    background:linear-gradient(45deg,#232313, #232121);
+    text-decoration: underline;
+}
+.more-models {
+    color: #FFFFFF;
+    border: 1px solid #c59608;
+    border-radius:5px;
+    width: 16em;
+    display: flex;
+    background:linear-gradient(45deg,#0a0a06, #232121);
+    text-align: end;
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+
+.art-img {
+    height: 6rem;
+    width: 6rem;
+    padding: 1%;
+    border-radius: 8px; 
+}
+
+.art-description {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+
+
+/* right */
+.right {
+    margin: 2rem 1rem;
+    color: white;
+    font-size: smaller;
+    border-left: #1B1A17 solid 2px;
+    text-align: right;
+    padding-top: 5rem;
+}
+
+.right h3 {
+    margin-right: 1rem;
+    font-size: 1.2em;
+}
+
+.right nav ul {
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+}
+
+.right li {
+    margin: 3px 15px;
+}
+
+.right a {
+    color: white;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+.right a:hover {
+    color:  goldenrod;
+    text-decoration:underline;
+    transition: 0.5s;
+}
+

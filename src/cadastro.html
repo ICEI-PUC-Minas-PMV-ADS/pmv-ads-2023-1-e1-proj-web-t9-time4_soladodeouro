@@ -6,55 +6,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de Cadastro</title>
-  <link rel="stylesheet" href="./css/projeto.css">
+  <link rel="stylesheet" href="./css/cadastro-login.css">
 </head>
 
 <body>
 
-  <div class="main-bg">
-    <form action="">
-      <h1>Solado de Ouro</h1>
+  <div class="mainContainer">
+
+    <div class="left">
+      
       <h2>Cadastro</h2>
-      <label for="nome">
-        <div class="input">
-          <input id="nome" name="nome" placeholder="Nome Completo" type="text">
-        </div>
+
+    <form action="cadastro">
+      
+      <label for="name">
+        <input  type ="text" id="name" name="name" placeholder="Seu nome" required>
       </label>
 
-      <label for="cpf">
-        <div class="input">
-          <input id="cpf" name="cpf" placeholder="CPF" type="password">
-        </div>
+      <label for="dataNasc">
+        <input type ="date" id="dataNasc" name="dataNasc" placeholder="Data de Nascimento" required>
       </label>
 
       <label for="email">
-        <div class="input">
-          <input id="email" name="email" placeholder="Email" type="text">
-        </div>
-      </label>
-
-      <label for="telefone">
-        <div class="input">
-          <input id="telefone" name="telefone" placeholder="Telefone" type="text">
-        </div>
+        <input type="email" id="email" name="email" placeholder="Seu email" required>
       </label>
 
       <label for="senha">
-        <div class="input">
-          <input id="senha" name="senha" placeholder="Senha" type="password">
-        </div>
+        <input type="password" id="senha" name="senha" placeholder="Escolha uma senha segura" required>
       </label>
 
-      <label for="repetir-senha">
-        <div class="input">
-          <input id="repetir-senha" name="repetir-senha" placeholder="Repitir Senha" type="password">
-        </div>
+      <label for="repeat">
+       <input type="password" id="repeat" name="repeat" placeholder="Repita sua senha">
       </label>
 
-      <div class="btn">
-        <button type="submit">Enter</button>
-      </div>
-    </form>
+    
+      <button type="submit">Finalizar</button>
+     
+     </form>
+     
+      <p>Para cadastrar sua conta, é necessário aceitar nossos Termos & Condiçoes.</p>
+    
+
+    </div>
+    <a href=""> 
+      <img src="img\logo.jpg" alt="logo">
+    </a>
+  
   </div>
 </body>
 

@@ -1,76 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+
+/* Menu */
+.hold {
+    height: 3.5rem;
 }
 
- body {
-    background:linear-gradient(45deg,#FFd966, #000000);
+.caixa {
+    font-family: "Poppins", sans-serif;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
-    font-family: "Poppins", sans-serif;
-}
-
-h1 {
-    text-align: center;
-    color: #000000;
-    margin-top: 5px;
-}
-
-h2 {
-    text-align: center;
-    color: #000000;
-    margin: 10px 30px;
-
-}
-
-.main-bg {
-    position: relative;
-    top: 45%;
-    left: 47%;
-    transform: translate(-45%, -47%);
-    border-radius: 7px;
-    padding: 80px;
-    width: min-content;
-    background: #fff;
+    padding: 0.7rem 1.5rem;
+    background-color: #1B1A17;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    animation: inci;
+    font-weight: normal;
 }
 
-.title {
-    font-size: 2.0em;
-    margin-bottom:100%;
+.menu h1 {
+    color: #FFFFFF;
 }
 
-input{
-    min-width: 250px;
-    border-radius: 7px;
-    border: 2px #232222 solid;
-    padding: 5px;
-    margin: 0px 0px 12px -5px;
+.menu nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-right: 2rem;
+}
+
+.menu a {
+    color: #FFFFFF;
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #1B1A17;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
 
-.btn {
-    margin: 32px 5px 0px 5px ;
-    text-align: center;
-    width: 100%; 
+.contato{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    font-size: 18px;
+    color: white;
 }
 
-.btn button {
-    background:linear-gradient(45deg,#FFd966, #000000);
-    border:none;
-    width: 80%;
-    height: 33px;
-    font-size: 1.5em;
-    border-radius: 20px;
-    outline: none;
-    cursor:pointer;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
 }
 
-.btn button:hover {
-    background:linear-gradient(45deg,#a18944, #000000);
-    color: #fff;
+.redes > a{
+    color: black;
+    font-size: 50px;
+}
+
+#copyright {
+    color: white;
+    font-size: 0.8rem;
+    align-self: center;
+    text-align: right;
 }
