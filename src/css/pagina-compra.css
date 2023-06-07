@@ -1,0 +1,239 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #1B1A17;
+    height: 10%;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+header h1 {
+    color: #FFFFFF;
+}
+
+.lista_cabecalho {
+    display: flex;  
+}
+
+header a {
+    color: #FFFFFF;
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    background: linear-gradient(-45deg, #000000, #FFd966);
+    position: relative;
+    border: 0;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+    width: 75%;
+    height: 3px;
+    background-color:black;
+  }
+  
+
+.informaçaoPrincipal{
+    width: 350px;
+    padding-left: 9em;
+}
+
+.imagemPrincipal{
+    margin: 0px 35px;
+    padding-left: 9em;
+}
+
+img{
+    height: 20em;
+    border-radius: 12px;
+}
+
+.opcao2 {
+    height: 18em;
+}
+
+.name{
+    font-size: 35px;
+    margin: 15px 10px;
+    color: rgba(173, 7, 7, 0.877);
+    text-align: center;
+}
+
+.valor{
+    margin: 15px 10px;
+    font-size: 28px;
+}
+
+p{
+    font-size: 22px;
+    margin: 0px 10px;
+   
+}
+
+ul{
+    display: flex;
+    gap: 10.5px;
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.list > li{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.linhaButton{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.qtd{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 15px 5px ;
+    background: rgb(180, 180, 180);
+    border-radius: 12px;
+    border: 1.5px solid black;
+    width: 35%;
+    font-size: 20px;
+}
+
+.sacola{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 15px 5px;
+    border-radius: 12px;
+    background: rgb(180, 180, 180);
+    border: 1.5px solid black;
+    width: 65%;
+    font-size: 35px;
+    
+}
+
+.qtd i{
+    font-size: 20px;
+}
+
+.finalizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    height: 2.5em;
+    width: 100%;
+    border-radius: 12px;
+    background: rgb(180, 180, 180);
+    letter-spacing: 1.5px;
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    font-size: 15px;
+}
+
+button:hover {
+    background: rgb(141, 141, 141);
+}
+
+.descriçao{
+    color: black;
+    background: linear-gradient(-45deg, #000000, #FFd966);
+    padding: 2em 0px 2em 9em;
+    position: relative;
+}
+
+.descriçao::after {
+    content: "";
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+    width: 75%;
+    height: 3px;
+    background-color:black;
+}
+  
+.descriçao > h1{
+    margin: 0px 35px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.descriçao > p{
+    font-size: 20px;
+    margin: 0px 35px;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #1B1A17;
+    justify-content: space-evenly;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    font-size: 18px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    font-size: 18px;
+    color: white;
+}
+
+.redes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+}
+
+.redes > a{
+    color: black;
+    font-size: 50px;
+}
+
+.linkfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin: 10px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
