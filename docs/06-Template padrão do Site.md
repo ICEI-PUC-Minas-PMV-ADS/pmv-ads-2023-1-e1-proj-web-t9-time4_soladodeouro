@@ -1,12 +1,54 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O template é composto pelos seguintes layouts:
+- **Tela principal**
+  - **Lista de Calçados**
+    - **Informação do Calçado**
+    - **Compra** 
+- **Fórum**
+- **Menu de navegação**
+  - **Sobre nós**
+  - **Fale conosco**
+  - **Login**
+  - **Entrar/Cadastrar**
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+## Tela Principal
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Tela que abrange todas as visualizações iniciais do site.
+
+![PaginaInicial](img/template_padrao.jpg)
+
+
+## Sobre Nós
+
+Apresentação da Solado de Ouro, contando nossa missão, visão e princípios
+
+![SobreNos](img/template_sobre_nos.jpg)
+
+
+## Curiosidades
+
+A pagina apresentará curiosidades do universo _sneakerhead_
+
+![Curiosidades](img/template_curiosidades.jpg)
+
+
+## Cadastro
+
+O usuário terá que se cadastrar para fazer a compra do calçado.
+
+![Cadastro](img/template_cadastro.jpg)
+
+
+## Login
+
+Uma vez cadastrado, o usuário fará o Login
+
+![Login](img/template_login.jpg)
+
+
+## Fale Conosco
+
+Onde o usuário poderá entrar em contato com a Solado de Ouro.
+
+![FaleConosco](img/template_fale_conosco.jpg)
