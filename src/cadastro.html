@@ -11,47 +11,35 @@
 
 <body>
 
-  <div class="mainContainer">
+  <div class="mainContainer-cadastro">
 
-    <div class="left">
-
-      <h2>Cadastro</h2>
-
-      <form action="cadastro">
-
-        <label for="name">
-          <input type="text" id="name" name="name" placeholder="Seu nome" required>
-        </label>
-
-        <label for="dataNasc">
-          <input type="date" id="dataNasc" name="dataNasc" placeholder="Data de Nascimento" required>
-        </label>
-
-        <label for="email">
-          <input type="email" id="email" name="email" placeholder="Seu email" required>
-        </label>
-
-        <label for="senha">
-          <input type="password" id="senha" name="senha" placeholder="Escolha uma senha segura" required>
-        </label>
-
-        <label for="repeat">
-          <input type="password" id="repeat" name="repeat" placeholder="Repita sua senha">
-        </label>
+    <div class="box-login">
+			<h2>Cadastro</h2>
+			<form>
+				<div class="box-input">
+					<input type="email" id="email" placeholder= "Email" required>
+					<label></label>
+				</div>
+				
+        <div class="box-input">
+					<input type="date" id="dataNasc" placeholder= "Data de Nascimento" required>
+					<label></label>
+				</div>
+				
+				<div class="box-input">
+					<input type="password" id="senha" placeholder= "Senha" required>
+					<label></label>
+				</div>
+				
+        <div class="box-input">
+					<input type="password" id="senha" placeholder= "Repita sua senha" required>
+					<label></label>
+				</div>
 
 
-        <button type="submit">Finalizar</button>
-
-      </form>
-
-      <p>Para cadastrar sua conta, é necessário aceitar nossos Termos & Condiçoes.</p>
-
-
-    </div>
-    <div class="solado">
-      <a href="pagina-inicial.html">
-        <img src="img\logo.jpg" alt="logo">
-      </a>
+				<button type="submit">Finalizar</button>
+		    </form>
+        <a href="login.html" class="forgot">Já possui um cadastro? Entre aqui!</a>
     </div>
 
   </div>
