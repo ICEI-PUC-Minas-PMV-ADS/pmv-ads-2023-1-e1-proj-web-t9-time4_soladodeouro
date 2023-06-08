@@ -8,8 +8,13 @@
 
 body {
     background:linear-gradient(-45deg, #000000, #FFd966);
-    height: 100vh;
+    /* height: auto; */
 }
+
+.mainContainer {
+    margin: 2rem 0;
+}
+
 .main > h2 {
     text-align: center;
     text-decoration: underline;

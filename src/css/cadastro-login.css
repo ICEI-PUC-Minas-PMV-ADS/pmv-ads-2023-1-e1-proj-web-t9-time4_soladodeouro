@@ -23,9 +23,8 @@ p {
 	justify-items: center;
 	align-items: center;
     background:linear-gradient(-45deg, #000000, #FFd966);
-    padding: 10rem;
-}
 
+}
 
 
 form {
@@ -71,7 +70,7 @@ button:hover {
     color: #fff;
 }
 
-.esqueci {
+.link {
     display: flex;
     flex-direction: column;
     padding: 0.7em;
