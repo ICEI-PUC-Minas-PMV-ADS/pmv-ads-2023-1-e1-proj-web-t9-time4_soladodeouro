@@ -68,16 +68,10 @@ img{
    
 }
 
-.list ul{
+.list {
     display: flex;
     gap: 10.5px;
-    list-style-type: none;
     margin: 0px 10px;
-}
-
-.list > li{
-    display: inline-block;
-    overflow: hidden;
 }
 
 .linhaButton{
@@ -95,6 +89,13 @@ img{
     border: 1.5px solid black;
     width: 35%;
     font-size: 20px;
+}
+
+select {
+    height: 1.5rem;
+    width: 3rem;
+    border: #000000 2px solid;
+    border-radius: 25px;
 }
 
 .sacola{
