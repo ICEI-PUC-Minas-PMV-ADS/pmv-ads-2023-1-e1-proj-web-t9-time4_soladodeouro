@@ -27,7 +27,6 @@
 .menu nav ul {
     list-style-type: none;
     display: flex;
-    padding-right: 2rem;
 }
 
 .menu a {

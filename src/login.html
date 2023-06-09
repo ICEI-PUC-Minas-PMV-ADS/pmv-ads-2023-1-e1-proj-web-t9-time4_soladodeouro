@@ -10,28 +10,26 @@
 <body>
 
 	<div class="mainContainer">
-		<div class="solado">
-			<a href="pagina-inicial.html">
-				<!-- <img src="img/logo.jpg" alt="logo"> -->
-			</a>
-		</div>
 
-		<div class="right">
+		<div class="box-login">
 			<h2>Login</h2>
 			<form>
+				<div class="box-input">
+					<input type="email" id="email" placeholder= "Email" required>
+					<label></label>
+				</div>
+				
+				<div class="box-input">
+					<input type="password" id="senha" placeholder= "Senha" required>
+					<label></label>
+				</div>
 
-				<label for="email">
-					<input type="email" id="email" name="email" placeholder="Seu email" required>
-				</label>
-
-				<label for="senha">
-					<input type="password" id="senha" name="senha" placeholder="Sua senha" required>
-				</label>
 
 				<button type="submit">Logar</button>
 		    </form>
-			<a href="cadastro.html" class="link">Cadastre-se</a>
-			<a href="recuperar-senha1.html" class="link">Esqueceu sua senha?</a>
+
+			<a href="cadastro.html" class="forgot">Não possui conta? Cadastre-se</a>
+			<a href="recuperar-senha1.html" class="forgot">Esqueceu sua senha? Clique aqui para recuperar!</a>
 		</div>
 	</div>
 
