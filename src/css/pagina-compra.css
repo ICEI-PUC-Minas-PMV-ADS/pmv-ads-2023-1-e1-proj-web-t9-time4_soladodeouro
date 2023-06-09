@@ -19,6 +19,7 @@ main{
     background: linear-gradient(-45deg, #000000, #FFd966);
     position: relative;
     border: 0;
+    justify-content: center;
 }
 
 main::after {
@@ -34,12 +35,10 @@ main::after {
 
 .informaçaoPrincipal{
     width: 350px;
-    padding-left: 9em;
 }
 
 .imagemPrincipal{
     margin: 0px 35px;
-    padding-left: 9em;
 }
 
 img{
