@@ -6,36 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de Cadastro</title>
-  <!-- <script src="entrar-cadastrar.js" defer></script> -->
   <link rel="stylesheet" href="./css/cadastro-login-senha.css">
 </head>
 
 <body>
-
-  <div class="mainContainer-cadastro">
+	
+	<div class="mainContainer-cadastro">
 
     <div class="box-login">
-			<h2>Cadastro</h2>
-			<form>
-				
-				<div class="box-input">
-					<label id="labelNome" for="nomeCadastro"></label>
-					<input type="text" id="nomeCadastro" placeholder= "Nome" required>
-				</div>
-				
-				<div class="box-input">
-					<label id="labelEmail" for="emailCadastro"></label>
-					<input type="email" id="emailCadastro" placeholder= "Email" required>
-				</div>
-				
-        		<div class="box-input">
+		<h2>Cadastro</h2>
+		<form>
+			
+			<div class="box-input">
+				<label id="labelNome" for="nomeCadastro"></label>
+				<input type="text" id="nomeCadastro" placeholder= "Nome" required>
+			</div>
+			
+			<div class="box-input">
+				<label id="labelEmail" for="emailCadastro"></label>
+				<input type="email" id="emailCadastro" placeholder= "Email" required>
+			</div>
+			
+			<div class="box-input">
 					<label id="labelData" for="dataCadastro"></label>
 					<input type="date" id="dataCadastro" placeholder= "Data de Nascimento" required>
 					
 				</div>
 				
 				<div class="box-input">
-					<label id="labelSenha" for="senhaCadastro"></label>
+					<label id="labelSenhaCadastro" for="senhaCadastro"></label>
 					<input type="password" id="senhaCadastro" placeholder= "Senha" required>
 				</div>
 				
@@ -45,12 +44,15 @@
 				</div>
 
 
-				<button type="submit">Finalizar</button>
+				<button type="submit" id="btnCadastrar">Finalizar</button>
 		    </form>
-        <a href="login.html" class="forgot">Já possui um cadastro? Entre aqui!</a>
+			<a href="login.html" class="forgot">Já possui um cadastro? Entre aqui!</a>
     </div>
 
-  </div>
+</div>
+
+
+<script src="./js/entrar-cadastrar.js" defer></script>
 </body>
 
 </html>

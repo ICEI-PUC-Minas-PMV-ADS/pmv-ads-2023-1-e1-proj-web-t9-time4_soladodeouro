@@ -42,9 +42,9 @@ h2 {
 }
 
 .mainContainer-cadastro{
-    position: relative;
-    width: 350px;
-    height: 480px;
+    /* position: relative; */
+    width: 23rem;
+    height: auto;
     background-color: rgba(128, 126, 126, .9);;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -105,7 +105,7 @@ button:hover {
 .forgot {
     display: flex;
     flex-direction: column;
-    padding: 0.5em 0px 0em 0px;
+    padding: 0.5em 1rem 0em 1rem;
     color: black    ;
     font-weight: bold;
     font-size: 1em;
@@ -115,4 +115,15 @@ button:hover {
 
 .forgot:hover{
     text-decoration: underline;
+}
+
+form {
+    width: 230px;
+    color: #700707;
+}
+
+/* Validação */
+.box-input {
+    display: flex;
+    flex-direction: column;
 }
