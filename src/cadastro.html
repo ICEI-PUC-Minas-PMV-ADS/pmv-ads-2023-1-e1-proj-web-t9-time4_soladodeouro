@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de Cadastro</title>
+  <!-- <script src="entrar-cadastrar.js" defer></script> -->
   <link rel="stylesheet" href="./css/cadastro-login-senha.css">
 </head>
 
@@ -16,24 +17,31 @@
     <div class="box-login">
 			<h2>Cadastro</h2>
 			<form>
-				<div class="box-input">
-					<input type="email" id="email" placeholder= "Email" required>
-					<label></label>
-				</div>
 				
-        <div class="box-input">
-					<input type="date" id="dataNasc" placeholder= "Data de Nascimento" required>
-					<label></label>
+				<div class="box-input">
+					<label id="labelNome" for="nomeCadastro"></label>
+					<input type="text" id="nomeCadastro" placeholder= "Nome" required>
 				</div>
 				
 				<div class="box-input">
-					<input type="password" id="senha" placeholder= "Senha" required>
-					<label></label>
+					<label id="labelEmail" for="emailCadastro"></label>
+					<input type="email" id="emailCadastro" placeholder= "Email" required>
 				</div>
 				
-        <div class="box-input">
-					<input type="password" id="senha" placeholder= "Repita sua senha" required>
-					<label></label>
+        		<div class="box-input">
+					<label id="labelData" for="dataCadastro"></label>
+					<input type="date" id="dataCadastro" placeholder= "Data de Nascimento" required>
+					
+				</div>
+				
+				<div class="box-input">
+					<label id="labelSenha" for="senhaCadastro"></label>
+					<input type="password" id="senhaCadastro" placeholder= "Senha" required>
+				</div>
+				
+       			 <div class="box-input">
+					<label id="labelConfirmarSenha" for="confirmarSenha"></label>
+					<input type="password" id="confirmarSenha" placeholder= "Repita sua senha" required>
 				</div>
 
 
