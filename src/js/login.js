@@ -36,11 +36,13 @@ function entrar(e) {
         // msgEntrar.setAttribute ("style", "display: block; text-shadow: 0px 0px 1px green; color: green")
         // msgEntrar.textContent = "Login efetuado com sucesso, redirecionando..."
         
-        let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
-        localStorage.setItem("token", token)
+        // let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
+        // localStorage.setItem("token", token)
         
+
+
         setTimeout(()=>{
-            window.location.href = "pagina-inicial.html"
+            window.location.href = "finalizar.html"
         }, 1000)
 
     } else {

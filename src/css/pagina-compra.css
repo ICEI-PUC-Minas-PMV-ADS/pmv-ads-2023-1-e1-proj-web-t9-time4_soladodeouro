@@ -167,3 +167,14 @@ button:hover {
     margin: 0px 35px;
     padding-bottom: 15px;
 }
+
+
+.esgotadoImg {
+    height: 40rem;
+    width: 30rem;
+}
+
+.esgotadoTxt {
+    font-size: 5rem;
+    color: rgb(106, 2, 2);
+}
