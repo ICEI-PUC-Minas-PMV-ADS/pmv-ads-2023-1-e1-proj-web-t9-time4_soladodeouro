@@ -12,14 +12,14 @@ O site possui uma página em que o usuário poderá cadastrar e entrar em sua co
 
 **RF-01 - O site deve fazer a verificação de e-mail no registro de novos usuários e possibilitar o usuário redefinir a senha de login**
 ### *Artefatos*
-*login.html
-*cadastro.html
-*recuperar-senha1.html
-*recuperar-senha2.html
-*cadastro-login-senha.css
-*entrar-cadastrar.js
-*login.js
-*projeto.css
+* login.html
+* cadastro.html
+* recuperar-senha1.html
+* recuperar-senha2.html
+* cadastro-login-senha.css
+* entrar-cadastrar.js
+* login.js
+* projeto.css
 
 ## Fórum
 
@@ -30,6 +30,11 @@ O site possui um fórum para a intereçao dos usuarios. Onde os clientes podem i
 ### *Requisito Atendido*
 
 **RF-03 - O site deve ter um Fórum de interação entre os usuários. Nessa área, os consumidores poderão interagir sobre os produtos e avalia-los**
+
+### *Artefatos*
+* forum.html
+* forum.css
+* projeto.css
 
 ## Tela Inicial 
 
@@ -43,9 +48,10 @@ O site possui uma tela inicial que permite o usuario navegar pelos produtos e op
 **RF-04 O site deve apresentar informações na tela inicial, de forma que o usuaruio tenha acesso ao produto e a todas as funcionalidades do site**
 
 ### *Artefatos*
-*forum.html
-*forum.css
-*projeto.css
+* pagina-inicial.html
+* pagina-inicial.css
+* projeto.css
+
 
 ## Fale-conosco - Sobre nós 
 
@@ -57,14 +63,14 @@ O site possui uma pagina de contato entre o usuario e a equipe mantedora por mei
 
 ### *Requisito Atentido*
 
-**RF-06 - O site deve oferecer opçoes “Fale Conosco“ “Sobre nós“. Para o usuário ter acesso a comunicação e suporte com a equipe de desenvolvimento/mantedores do site
+**RF-06 - O site deve oferecer opçoes “Fale Conosco“ “Sobre nós“. Para o usuário ter acesso a comunicação e suporte com a equipe de desenvolvimento/mantedores do site**
 
 ### *Artefatos*
-*fale-conosco.html
-*sobre-nos.html
-*fale-conosco.css
-*sobre-nos.css
-*projeto.css
+* fale-conosco.html
+* sobre-nos.html
+* fale-conosco.css
+* sobre-nos.css
+* projeto.css
 
 ## Descriçao
 
@@ -74,12 +80,12 @@ O site possui descriçaoes/curiosidades sobre os modelos no momento da compra.
 
 ### *Requisito Atendido*
 
-** RF-09 - O site deve oferecer curiosidades sobre o tênis na tela de identificaçao(finalizaçao da compra)
+**RF-09 - O site deve oferecer curiosidades sobre o tênis na tela de identificaçao(finalizaçao da compra)**
 
 ### *Artefato*
-*pagina-compra.html
-*pagina-compra.css
-*projeto.css
+* pagina-compra.html
+* pagina-compra.css
+* projeto.css
 
 
 
