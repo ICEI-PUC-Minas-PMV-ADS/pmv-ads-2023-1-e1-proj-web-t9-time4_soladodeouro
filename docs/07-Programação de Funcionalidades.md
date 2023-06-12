@@ -26,8 +26,8 @@ O site possui um fórum para a intereçao dos usuarios. Onde os clientes podem i
 
 O site possui uma tela inicial que permite o usuario navegar pelos produtos e opçoes de interação do site.
 
-<img scr = "/docs/img/paginainicialTela.jpg" width = 70%>
-<img scr = "/docs/img/paginainicialTela2.jpg" width = 70%>
+<img src = "/docs/img/paginainicialTela.jpg" width = 70%>
+<img src = "/docs/img/paginainicialTela2.jpg" width = 70%>
 
 ### *Requisito Atendido*
 
