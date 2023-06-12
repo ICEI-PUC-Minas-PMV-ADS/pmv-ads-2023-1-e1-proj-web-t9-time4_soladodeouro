@@ -43,7 +43,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-01| O site deve fazer a verificação de e-mail no registro de novos usuários e possibilitar o usuário redefinir a senha de login | ALTA | 
 |RF-02| O site deve permitir a alteração/consulta dos dados pessoais do usuário   | MÉDIA |
 |RF-03| O site deve ter um Fórum de interação entre os usuários. Nessa área, os consumidores poderão interagir sobre os produtos e avalia-los | MÉDIA |
-|RF-04| O site deve apresentar informações na tela inicial (imagem ilustrativa, nome e preço ) correspondente ao produto apresentado |ALTA|
+|RF-04| O site deve apresentar informações na tela inicial, de forma que o usuaruio tenha acesso ao produto e a todas as funcionalidades do site |ALTA|
 |RF-05| O site deve oferecer uma funcionalidade de pesquisa na tela inicial |ALTA|
 |RF-06| O site deve oferecer opçoes “Fale Conosco“ “Sobre nós“. Para o usuário ter acesso a comunicação e suporte com a equipe de desenvolvimento/mantedores do site |ALTA|
 |RF-07| O site deve ter a função popularmente chamada de "carrinho". Levando o usuário ao final da compra, onde deve acontecer a identificação |ALTA|
