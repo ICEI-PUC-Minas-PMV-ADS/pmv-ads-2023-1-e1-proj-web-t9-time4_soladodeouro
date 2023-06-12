@@ -52,7 +52,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* Acesse ao site SOLADO DE OURO clicando no link do lado: <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time4_soladodeouro/index.html"> Solado de Ouro</a> 
 
 # Armazenamento do Código-Fonte
 
