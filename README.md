@@ -54,10 +54,6 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 * Acesse ao site SOLADO DE OURO clicando no link do lado: <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time4_soladodeouro/index.html"> Solado de Ouro</a> 
 
-# Armazenamento do Código-Fonte
-
-* <a href="src/README.md">Código Fonte</a>
-
 # Armazenamento da Apresentação
 
-* <a href="presentation/README.md">Apresentação da solução</a>
+* <a href="presentation/README.md">Aqui encontrará um vídeo-resumo sobre a navegação do Solado de Ouro</a>
